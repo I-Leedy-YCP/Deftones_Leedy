@@ -10,6 +10,8 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+/* added the import at the top to ensure it cascades through the site */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap');
 
 html {
   color: #222;
@@ -40,7 +42,7 @@ html {
 /*
  * A better looking default horizontal rule
  */
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap');
+
 
 
 *{
@@ -51,8 +53,9 @@ font-size: 25px;
 
 }
 
+/* You were missing the " marks inside parantheses */
 header{
-background-image: url(../Ohms Loop.gif);
+background-image: url("../Ohms Loop.gif");
 height: 100vh;
 background-size: cover;
 background-position: center;
