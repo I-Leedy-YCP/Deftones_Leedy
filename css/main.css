@@ -53,9 +53,9 @@ font-size: 25px;
 
 }
 
-/* You were missing the " marks inside parantheses */
+/* You were missing the " marks inside parantheses and needed to add img/ to the location to get it to work.*/
 header{
-background-image: url("../Ohms Loop.gif");
+background-image: url("../img/Ohms Loop.gif");
 height: 100vh;
 background-size: cover;
 background-position: center;
