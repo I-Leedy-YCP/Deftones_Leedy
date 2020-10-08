@@ -7,10 +7,6 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap" rel="stylesheet">
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
@@ -18,21 +14,21 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
-  <meta name="theme-color" content="#fafafa">
 
   <h1>Deftones</h1>
 </head>
 
-<body>
+<body class="home">
 
   <!-- Add your site or application content here -->
   <header>
     <div class ="main">
       <ul>
-        <li><a href="#">Home</li>
-        <li><a href="#">About</li>
-        <li><a href="#">Tour</li>
-        <li><a href="#">Contact</li>
+        <!-- Initially you were missing the </a>-->
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Tour</a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
     </div>
   </header>
@@ -40,18 +36,12 @@
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 
-     <div id='video'>
+  <div id='videoplayer'>
     <iframe src="https://www.youtube.com/embed/KUDbj0oeAj0"
    width="210" height="150" align="left"></iframe>
-   </div>
+  </div>
 
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 
 </html>
