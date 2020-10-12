@@ -57,15 +57,30 @@ font-size: 25px;
 height: 100vh;
 background-size: cover;
 background-position: center;
-
 }
+
 /* You were missing the " marks inside parantheses and needed to add img/ to the location to get it to work.*/
+
+/*#body #About{
+background-color: #494949;
+background-size: cover;
+
+}*/
+
 
 h1{
   float: left;
   font-family: 'Oswald', sans-serif;
   color: #fff;
   margin-top: 5px;
+  margin-left: 20px;
+}
+
+h2{
+  float: left;
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  margin-top: 8px;
   margin-left: 20px;
 }
 
@@ -82,7 +97,7 @@ ul{
   float: right;
   list-style-type: none;
   margin-top: 10px;
- /* background-color: #000; got rid of the black background*/
+  /*background-color: #000;*/
   padding: 16px;
   position: sticky;
   top: 148px;
@@ -90,7 +105,6 @@ ul{
 
 ul li{
   display: inline-block;
-  /* added the borders and spacing for the links */
   border-left: 1px solid #fff;
   border-bottom: 1px solid #fff;
   margin: 0px 5px 0px 5px;
@@ -101,6 +115,13 @@ ul li a{
   color: #fff;
   padding: 5px;
   margin-right: 20px;
+}
+
+p{
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  margin-top: 8px;
+  margin-left: 20px;
 }
 
 
