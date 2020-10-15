@@ -61,12 +61,28 @@ background-position: center;
 
 /* You were missing the " marks inside parantheses and needed to add img/ to the location to get it to work.*/
 
-/*#body #About{
-background-color: #494949;
-background-size: cover;
 
-}*/
+.headsection{
+display: inline;
+margin-bottom: 2%;
+}
 
+.About{
+  display: flex;
+  flex-direction: column;
+  background-color: #494949;
+}
+
+.about_content{
+  width: 90%;
+  margin-top: 5%;
+  margin: 1%;
+  flex-direction: column;
+}
+
+.Deftones_Ohms{
+margin:1%;
+}
 
 h1{
   float: left;
@@ -74,6 +90,7 @@ h1{
   color: #fff;
   margin-top: 5px;
   margin-left: 20px;
+  font-weight: 400;
 }
 
 h2{
@@ -82,6 +99,7 @@ h2{
   color: #fff;
   margin-top: 8px;
   margin-left: 20px;
+  font-weight: 400;
 }
 
 hr {
@@ -113,7 +131,7 @@ ul li{
 ul li a{
   text-decoration: none;
   color: #fff;
-  padding: 5px;
+  padding: 8px;
   margin-right: 20px;
 }
 
