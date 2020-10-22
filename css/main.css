@@ -53,14 +53,14 @@ font-size: 25px;
 }
 
 .home{
-  background-image: url("../img/Ohms Loop.gif");
+background-image: url("../img/Ohms Loop.gif");
 height: 100vh;
 background-size: cover;
 background-position: center;
+overflow-x: hidden;
+width: 100vw;
+margin: 0px;
 }
-
-/* You were missing the " marks inside parantheses and needed to add img/ to the location to get it to work.*/
-
 
 .headsection{
 display: inline;
@@ -140,6 +140,30 @@ p{
   color: #fff;
   margin-top: 8px;
   margin-left: 20px;
+}
+
+/* This is for the show/hide panel on the homepage */
+
+.panel {
+	width: 500px;
+	float:right;
+	height:100%;
+	background:#d9dada;
+	position:relative;
+	right: -930px;
+  background-color: #000000;
+}
+.slider-arrow {
+	padding:5px;
+	width:10px;
+	float: right;
+	background:#000000;
+	font:400 12px Arial, Helvetica, sans-serif;
+	color:#fff;
+	text-decoration:none;
+	position:relative;
+  left: 930px;
+  top: 50%;
 }
 
 
