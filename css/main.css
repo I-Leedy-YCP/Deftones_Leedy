@@ -153,6 +153,8 @@ p{
 	right: -930px;
   background-color: #000000;
 }
+
+
 .slider-arrow {
 	padding:5px;
 	width:10px;
@@ -165,6 +167,12 @@ p{
   left: 930px;
   top: 50%;
 }
+
+.panel Deftones_Chino.jpg{
+  max-width: 300px;
+  height: auto;
+}
+
 
 
 /* This is the for video player on the homepage to be positionsed */

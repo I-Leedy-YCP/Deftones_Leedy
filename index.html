@@ -33,9 +33,22 @@
   </header>
 
   <div class="panel">
+
+    <img src="img/Deftones_Chino.jpg">
+    <h2>Photos</h2>
+    <br>
+    <br>
+    <img src="img/Merch.jpeg">
+    <h2>Shop</h2>
+    <br>
+    <br>
+    <img src="img/Deftones_Snow.jpg">
+    <h2>News</h2>
+
   </div>
 
   <a href="javascript:void(0);" class="slider-arrow show">&laquo;</a>
+
 
   <div id='videoplayer'>
     <iframe src="https://www.youtube.com/embed/KUDbj0oeAj0"
@@ -55,13 +68,13 @@
           });
 		  $(this).html('&laquo;').removeClass('show').addClass('hide');
         }
-        else {   	
+        else {
 	    $( ".slider-arrow, .panel" ).animate({
           right: "-=470"
 		  }, 700, function() {
             // Animation complete.
           });
-		  $(this).html('&raquo;').removeClass('hide').addClass('show');    
+		  $(this).html('&raquo;').removeClass('hide').addClass('show');
         }
     });
 
