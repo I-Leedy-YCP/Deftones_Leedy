@@ -168,12 +168,60 @@ p{
   top: 50%;
 }
 
-.panel Deftones_Chino.jpg{
-  max-width: 300px;
+.panel img{
+  padding-left: 75px;
+  max-width: 190px;
   height: auto;
+  align-content: center;
+}
+ .panel h2{
+   padding-left: 55px;
+   text-decoration: underline;
+ }
+/* End of panel css */
+
+ .about_content{
+   font-weight: 100;
+   font-size: 15px;
+ }
+
+ .Deftones_Ohms{
+   max-height: 40px;
+   max-width: 40px;
+ }
+
+/*Start Tour CSS below */
+
+.Tour{
+  display: flex;
+  flex-direction: column;
+  background-color: Black;
 }
 
+/*End Tour CSS */
 
+/* Start Contact CSS Below */
+
+.Contact{
+  display: flex;
+  flex-direction: column;
+  background-color: Black;
+}
+
+.Contact_content{
+  padding-left: 60px;
+  Padding-top: 55px;
+  font-weight: 100px;
+}
+
+.Social_Media{
+  text-color: #White;
+  padding-left: 800px;
+  align-items: right;
+
+}
+
+/* End Contact CSS */
 
 /* This is the for video player on the homepage to be positionsed */
 
