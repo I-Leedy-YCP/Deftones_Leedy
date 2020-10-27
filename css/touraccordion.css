@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+   /* border: 1px solid black;
+    */
+}
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+#touraccordion ul {
+    display: flex;
+    min-height: 100vh;
+    max-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+}
+#touraccordion li {
+    flex: 1;
+    display: flex;
+    align-items: stretch;
+    padding: 20px;
+    background: #000;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    border: none;
+}
+#touraccordion li:hover {
+    background: #000;
+}
+#touraccordion li.active {
+    flex: 5;
+    background: #1E1E1E;
+    cursor: default;
+}
+#touraccordion li.active .section-content {
+    flex: 4;
+    opacity: 1;
+    transform: scaleX(1);
+    color: #e74c3c;
+}
+#touraccordion li .section-title {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color:#000;
+}
+#touraccordion li .section-title img {
+    margin: 0;
+    border: 1px solid #fff;
+}
+
+#touraccordion li .section-content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    transition: all 0.25s 0.1s ease-out;
+}
+
+.TourContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.TourContent p{
+    font-size: 16px;
+}

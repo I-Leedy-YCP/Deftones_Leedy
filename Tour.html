@@ -11,6 +11,8 @@
   <!-- Place favicon.ico in the root directory -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/touraccordion.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body class="Tour">
   <header>
@@ -25,326 +27,358 @@
       </ul>
     </div>
   </header>
-<div class="North America">
-    <img src="img/Deftones_NA.jpg" alt="Chino in blue light">
-  <h2 class="NA">North American 2021</h2>
-  <div class="NADates">
-  <p>Aug 12
-  <br>
-  Aug 14
-  <br>
-  Aug 15
-  <br>
-  Aug 17
-  <br>
-  Aug 19
-  <br>
-  Aug 20
-  <br>
-  Aug 21
-  <br>
-  Aug 23
-  <br>
-  Aug 24
-  <br>
-  Aug 27
-  <br>
-  Aug 28
-  <br>
-  Aug 29
-  <br>
-  Aug 31
-  <br>
-  Sep 02
-  <br>
-  Sep 03
-  <br>
-  Sep 04
-  <br>
-  Sep 06
-  <br>
-  Sep 07
-  <br>
-  Sep 08
-  <br>
-  Sep 10
-  <br>
-  Sep 11
-  <br>
-  Sep 14
-  <br>
-  Sep 17
-  <br>
-  Sep 18
-  <br>
-  Sep 21
-  <br>
-  Sep 22</p>
-  </div>
 
-<div class="NAvenue">
-  <p>The Armory
-  <br>
-  The Rave/Eagels Club
-  <br>
-  Michigan Lottery Amphlitheatre at Freedom Hill
-  <br>
-  Huntington Bank Pavilion at Northerly Island
-  <br>
-  RBC Echo Beach
-  <br>
-  Place Bell
-  <br>
-  Mohegan Sun Arena
-  <br>
-  Agganis Arena
-  <br>
-  The Rooftop at Pier 17
-  <br>
-  The Met Philadelphia
-  <br>
-  Stone Poney Summer Stage
-  <br>
-  The Anthem
-  <br>
-  Petersen Events Center
-  <br>
-  White River State Park
-  <br>
-  Nashville Municipal Auditorium
-  <br>
-  Cadance Bank Amplitheater at Chastain Park
-  <br>
-  Irving Music Factory
-  <br>
-  White Oak Music Hall
-  <br>
-  AT&T Center
-  <br>
-  Pepsi Center
-  <br>
-  Isleta Amphitheater
-  <br>
-  Comerica Theatre
-  <br>
-  Greek Theatre
-  <br>
-  Bill Graham Civiv Center Auditorium
-  <br>
-  WaMu Theater
-  <br>
-  Theater of The Clouds<p/>
-</div>
 
-<div class="NACities">
-  <p>Minneapolis, MN
-    <br>
-  Milwaukee, WI
-  <br>
-  Sterling Heights, MI
-  <br>
-  Chicago, IL
-  <br>
-  Toronto, ON
-  <br>
-  Laval, QC
-  <br>
-  Uncasville, CT
-  <br>
-  Boston, MA
-  <br>
-  New York City, NY
-  <br>
-  Philadelphia, PA
-  <br>
-  Ashbury Park, NJ
-  <br>
-  Washington City, DC
-  <br>
-  Pittsburg, PA
-  <br>
-  Indianapolis, IN
-  <br>
-  Nashville, TN
-  <br>
-  Atlanta, GA
-  <br>
-  Irving, TX
-  <br>
-  Huston, TX
-  <br>
-  San Antonio, TX
-  <br>
-  Denver, CO
-  <br>
-  Albuquerque, NM
-  <br>
-  Phoenix, AZ
-  <br>
-  Los Angeles, CA
-  <br>
-  San Francsico, CA
-  <br>
-  Seattle, WA
-  <br>
-  Portland, OR</p>
-  </div>
-</div>
 
-<div class="Europe">
-  <h2 class="EUR">Europe 2021</h2>
-  <img src="img/Deftones_Europe.jpg" alt="Chino front">
-  <div class="EUDates">
-  <p>May 21
-    <br>
-  Jun 2
-  <br>
-  Jun 11
-  <br>
-  Jun 11
-  <br>
-  Jun 11
-  <br>
-  Jun 18
-  <br>
-  Jun 19
-  <br>
-  Jun 21
-  <br>
-  Jun 22
-  <br>
-  Jun 25
-  <br>
-  Jun 26
-  <br>
-  Jun 28
-  <br>
-  Jun 29
-  <br>
-  Jul 6
-  <br>
-  Jul 8
-  <br>
-  Jul 10
-  <br>
-  Jul 13</p>
-  </div>
 
-<div class="EURvenue">
-  <p>North Music Festival
-  <br>
-  Resurrection Fest 2021 (2-5 June)
-  <br>
-  Rock am Ring 2021 (11-13 June)
-  <br>
-  Rock am Ring 2021 (11-13 June)
-  <br>
-  X-tra
-  <br>
-  Hellfest Open Air 2021
-  <br>
-  Pinkpop Festival 2021
-  <br>
-  INmusic Festival 2021 (21-23 June)
-  <br>
-  Sequoie Music Park
-  <br>
-  Budapest Park
-  <br>
-  Metal Hammer Festival 2021
-  <br>
-  Grosse Freiheit 36
-  <br>
-  Columbiahalle
-  <br>
-  Razzmatazz
-  <br>
-  Mad Cool Festival 2021
-  <br>
-  Park Live Festival 2021
-  <br>
-  UPark Festival</p>
-  <div>
-
-    <div class="EURcities">
-    <p>Porto, Portugal
+<ul id="touraccordion">
+  <li>
+    <div class="section-title">
+      <img src="img/Deftones_NA.jpg" alt="Chino in blue light">
+    </div>
+    <div class="section-content">
+      <div class="TourContent">
+      <h2 class="NA">North American 2021</h2>
+      <div class="NADates">
+      <p>Aug 12
       <br>
-  Viveiro, Spain
-  <br>
-  Nurnberg, Germany
-  <br>
-  Nurnberg, Germany
-  <br>
-  Zurich, Switzerland
-  <br>
-  Clisson, France
-  <br>
-  Landgraaf, Natherland
-  <br>
-  Zagreb, Croatia
-  <br>
-  Bologna, Italy
-  <br>
-  Budapest, Hungary
-  <br>
-  Katowice, Poland
-  <br>
-  Hamburg, Germany
-  <br>
-  Berlin, Germany
-  <br>
-  Barcelona, Spain
-  <br>
-  Madrid, Spain
-  <br>
-  Moscow, Russia
-  <br>
-  Kyiv, Ukraine</p>
-  </div>
-</div>
+      Aug 14
+      <br>
+      Aug 15
+      <br>
+      Aug 17
+      <br>
+      Aug 19
+      <br>
+      Aug 20
+      <br>
+      Aug 21
+      <br>
+      Aug 23
+      <br>
+      Aug 24
+      <br>
+      Aug 27
+      <br>
+      Aug 28
+      <br>
+      Aug 29
+      <br>
+      Aug 31
+      <br>
+      Sep 02
+      <br>
+      Sep 03
+      <br>
+      Sep 04
+      <br>
+      Sep 06
+      <br>
+      Sep 07
+      <br>
+      Sep 08
+      <br>
+      Sep 10
+      <br>
+      Sep 11
+      <br>
+      Sep 14
+      <br>
+      Sep 17
+      <br>
+      Sep 18
+      <br>
+      Sep 21
+      <br>
+      Sep 22</p>
+      </div>
+    
+    <div class="NAvenue">
+      <p>The Armory
+      <br>
+      The Rave/Eagels Club
+      <br>
+      Michigan Lottery Amphlitheatre at Freedom Hill
+      <br>
+      Huntington Bank Pavilion at Northerly Island
+      <br>
+      RBC Echo Beach
+      <br>
+      Place Bell
+      <br>
+      Mohegan Sun Arena
+      <br>
+      Agganis Arena
+      <br>
+      The Rooftop at Pier 17
+      <br>
+      The Met Philadelphia
+      <br>
+      Stone Poney Summer Stage
+      <br>
+      The Anthem
+      <br>
+      Petersen Events Center
+      <br>
+      White River State Park
+      <br>
+      Nashville Municipal Auditorium
+      <br>
+      Cadance Bank Amplitheater at Chastain Park
+      <br>
+      Irving Music Factory
+      <br>
+      White Oak Music Hall
+      <br>
+      AT&T Center
+      <br>
+      Pepsi Center
+      <br>
+      Isleta Amphitheater
+      <br>
+      Comerica Theatre
+      <br>
+      Greek Theatre
+      <br>
+      Bill Graham Civiv Center Auditorium
+      <br>
+      WaMu Theater
+      <br>
+      Theater of The Clouds<p/>
+    </div>
+    
+    <div class="NACities">
+      <p>Minneapolis, MN
+        <br>
+      Milwaukee, WI
+      <br>
+      Sterling Heights, MI
+      <br>
+      Chicago, IL
+      <br>
+      Toronto, ON
+      <br>
+      Laval, QC
+      <br>
+      Uncasville, CT
+      <br>
+      Boston, MA
+      <br>
+      New York City, NY
+      <br>
+      Philadelphia, PA
+      <br>
+      Ashbury Park, NJ
+      <br>
+      Washington City, DC
+      <br>
+      Pittsburg, PA
+      <br>
+      Indianapolis, IN
+      <br>
+      Nashville, TN
+      <br>
+      Atlanta, GA
+      <br>
+      Irving, TX
+      <br>
+      Huston, TX
+      <br>
+      San Antonio, TX
+      <br>
+      Denver, CO
+      <br>
+      Albuquerque, NM
+      <br>
+      Phoenix, AZ
+      <br>
+      Los Angeles, CA
+      <br>
+      San Francsico, CA
+      <br>
+      Seattle, WA
+      <br>
+      Portland, OR</p>
+      </div>
+    </div>    </div>
+  </li>
+  <li class="active">
+    <div class="section-title">
+      <img src="img/Deftones_Europe.jpg" alt="Chino front">
+    </div>
+    <div class="section-content">
 
-<div class="Asia">
-<img src="">
-  <h2 class="Asia">Asia 2021</h2>
-  <div class="AsiaDates">
-  <p>May 11
-    <br>
-  May 13
-  <br>
-  May 15
-  <br>
-  May 17
-  <br>
-  May 19</p>
-</div>
+      <div class="TourContent">
+        <h2 class="EUR">Europe 2021</h2>
+        <div class="EUDates">
+        <p>May 21
+          <br>
+        Jun 2
+        <br>
+        Jun 11
+        <br>
+        Jun 11
+        <br>
+        Jun 11
+        <br>
+        Jun 18
+        <br>
+        Jun 19
+        <br>
+        Jun 21
+        <br>
+        Jun 22
+        <br>
+        Jun 25
+        <br>
+        Jun 26
+        <br>
+        Jun 28
+        <br>
+        Jun 29
+        <br>
+        Jul 6
+        <br>
+        Jul 8
+        <br>
+        Jul 10
+        <br>
+        Jul 13</p>
+        </div>
+      
+      <div class="EURvenue">
+        <p>North Music Festival
+        <br>
+        Resurrection Fest 2021 (2-5 June)
+        <br>
+        Rock am Ring 2021 (11-13 June)
+        <br>
+        Rock am Ring 2021 (11-13 June)
+        <br>
+        X-tra
+        <br>
+        Hellfest Open Air 2021
+        <br>
+        Pinkpop Festival 2021
+        <br>
+        INmusic Festival 2021 (21-23 June)
+        <br>
+        Sequoie Music Park
+        <br>
+        Budapest Park
+        <br>
+        Metal Hammer Festival 2021
+        <br>
+        Grosse Freiheit 36
+        <br>
+        Columbiahalle
+        <br>
+        Razzmatazz
+        <br>
+        Mad Cool Festival 2021
+        <br>
+        Park Live Festival 2021
+        <br>
+        UPark Festival</p>
+        </div>
+      
+          <div class="EURcities">
+          <p>Porto, Portugal
+            <br>
+        Viveiro, Spain
+        <br>
+        Nurnberg, Germany
+        <br>
+        Nurnberg, Germany
+        <br>
+        Zurich, Switzerland
+        <br>
+        Clisson, France
+        <br>
+        Landgraaf, Natherland
+        <br>
+        Zagreb, Croatia
+        <br>
+        Bologna, Italy
+        <br>
+        Budapest, Hungary
+        <br>
+        Katowice, Poland
+        <br>
+        Hamburg, Germany
+        <br>
+        Berlin, Germany
+        <br>
+        Barcelona, Spain
+        <br>
+        Madrid, Spain
+        <br>
+        Moscow, Russia
+        <br>
+        Kyiv, Ukraine</p>
+        </div>
+      </div>    </div>
+  </li>
 
-<div class="Asiavenue">
-  <p>Sai Wan Ho Civic Centre
-  <br>
-  AsiaWorld Arena
-  <br>
-  Bejing MasterCard Arena
-  <br>
-  Osaka Jo Hall
-  <br>
-  Yokohama Arena</p>
-</div>
+  <li>
+    <div class="section-title">
+      <img src="img/Deftones_Europe.jpg" alt="Chino front">
+    </div>
+    <div class="section-content">
+      <div class="TourContent">
+          <h2 class="Asia">Asia 2021</h2>
+          <div class="AsiaDates">
+          <p>May 11
+            <br>
+          May 13
+          <br>
+          May 15
+          <br>
+          May 17
+          <br>
+          May 19</p>
+        </div>
+        
+        <div class="Asiavenue">
+          <p>Sai Wan Ho Civic Centre
+          <br>
+          AsiaWorld Arena
+          <br>
+          Bejing MasterCard Arena
+          <br>
+          Osaka Jo Hall
+          <br>
+          Yokohama Arena</p>
+        </div>
+        
+        <div class="Asiacities">
+          <p>Hong Kong, China
+            <br>
+          Hong Kong, China
+          <br>
+          Bejing, China
+          <br>
+          Osaka, Japan
+          <br>
+          Yokohama, Tokyo, </p>
+          </div>
+        
+        </div>
+            </div>
+  </li>
+</ul>
 
-<div class="Asiacities">
-  <p>Hong Kong, China
-    <br>
-  Hong Kong, China
-  <br>
-  Bejing, China
-  <br>
-  Osaka, Japan
-  <br>
-  Yokohama, Tokyo, </p>
-  </div>
 
-</div>
-
-
+<script>
+  var section = $('li');
+  
+  function toggleAccordion() {
+  section.removeClass('active');
+  $(this).addClass('active');
+  }
+  
+  section.on('click', toggleAccordion);
+  </script>
 
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
