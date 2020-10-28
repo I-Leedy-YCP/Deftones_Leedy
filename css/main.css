@@ -67,6 +67,20 @@ display: inline;
 margin-bottom: 2%;
 }
 
+.Boxed p{
+  line-height: 20px;
+  padding-left: 300px;
+  padding-top: 430px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+/*End Main Page CSS*/
+
+
+/*Start About CSS below*/
+
 .About{
   display: flex;
   flex-direction: column;
@@ -210,17 +224,89 @@ p{
 
 .Contact_content{
   padding-left: 60px;
-  Padding-top: 55px;
+  Padding-top: 15px;
   font-weight: 100px;
 }
 
+.vl{
+  border-left: 1px solid white;
+  height: 350px;
+  position: absolute;
+  left: 45%;
+  top: 20%;
+  margin-left: -3px;
+  align-items: center;
+}
+
 .Social_Media{
-  text-color: #White;
+  color: #ffffff;
   padding-left: 800px;
+  padding-top: 135px;
   align-items: right;
+  position: absolute;
+}
+
+.Social_Media h2{
+  font-size: 30px;
+}
+
+.Social_Media a{
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+input{
+  background-color: #000000;
+  border-bottom: 1px solid #ffffff;
+  border-top: none;
+  border-right: none;
+  border-left:none;
+  color: #ffffff;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+textarea{
+  background-color: #000000;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  height: 120px;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+#SubmitForm{
+  border: 1px solid #ffffff;
+  background-color: #000000;
+  color: #ffffff;
+  width: 55px;
+  height: 38px;
+  font-weight: 100;
+  padding-left: 10px;
 
 }
 
+.Footer{
+  position: sticky;
+  font-weight: 100;
+  left: 0;
+  bottom: 0;
+  height: 93px;
+  width: 100%;
+  color: #000;
+  background-color: #979797;
+}
+
+.Footer p{
+font-size: 15px;
+color: #000;
+margin-left: 26px;
+margin-top: 25px;
+line-height: 13px;
+}
 /* End Contact CSS */
 
 /* This is the for video player on the homepage to be positionsed */
