@@ -68,11 +68,11 @@ margin-bottom: 2%;
 }
 
 .Boxed p{
-  line-height: 20px;
-  padding-left: 300px;
-  padding-top: 430px;
+  line-height: 28px;
+  padding-left: 250px;
+  padding-top: 440px;
   color: #fff;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 300;
 }
 
@@ -223,8 +223,8 @@ p{
 }
 
 .Contact_content{
-  padding-left: 60px;
-  Padding-top: 15px;
+  padding-left: 80px;
+  Padding-top: 13px;
   font-weight: 100px;
 }
 
@@ -240,14 +240,18 @@ p{
 
 .Social_Media{
   color: #ffffff;
-  padding-left: 800px;
   padding-top: 135px;
-  align-items: right;
+  align-items: left;
   position: absolute;
 }
 
 .Social_Media h2{
   font-size: 30px;
+  padding-left: 730px;
+}
+
+.Social_Media a:hover{
+  text-decoration: underline;
 }
 
 .Social_Media a{
@@ -256,6 +260,7 @@ p{
   font-weight: 200;
   font-size: 20px;
   line-height: 30px;
+  padding-left: 750px;
 }
 
 input{
@@ -286,7 +291,6 @@ textarea{
   height: 38px;
   font-weight: 100;
   padding-left: 10px;
-
 }
 
 .Footer{
@@ -294,7 +298,7 @@ textarea{
   font-weight: 100;
   left: 0;
   bottom: 0;
-  height: 93px;
+  height: 95px;
   width: 100%;
   color: #000;
   background-color: #979797;
@@ -304,10 +308,27 @@ textarea{
 font-size: 15px;
 color: #000;
 margin-left: 26px;
-margin-top: 25px;
+margin-top: 28px;
 line-height: 13px;
 }
 /* End Contact CSS */
+
+/*Start Responsive CSS Below*/
+
+@media screen and (max-width: 768){
+
+
+
+}
+
+@media screen and (max-width: 320){
+
+
+
+}
+
+
+/*End Responsive CSS*/
 
 /* This is the for video player on the homepage to be positionsed */
 
