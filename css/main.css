@@ -67,15 +67,6 @@ display: inline;
 margin-bottom: 2%;
 }
 
-.Boxed p{
-  line-height: 28px;
-  padding-left: 250px;
-  padding-top: 440px;
-  color: #fff;
-  font-size: 25px;
-  font-weight: 300;
-}
-
 /*End Main Page CSS*/
 
 
@@ -223,26 +214,35 @@ p{
 }
 
 .Contact_content{
-  padding-left: 80px;
-  Padding-top: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  marign: 0px;
   font-weight: 100px;
+  flex-direction: row;
+}
+
+.contacform{
+  width: 48%;
+  margin: 15px;
+  position: relative;
+  left: 5%;
 }
 
 .vl{
-  border-left: 1px solid white;
+  width: 6%
+  border-right: 1px solid white;
   height: 350px;
-  position: absolute;
-  left: 45%;
-  top: 20%;
-  margin-left: -3px;
-  align-items: center;
+  margin: 15px;
 }
 
 .Social_Media{
+  width: 48%;
+  position: relative;
+  right: 35%;
+  margin: 15px;
   color: #ffffff;
-  padding-top: 135px;
-  align-items: left;
-  position: absolute;
 }
 
 .Social_Media h2{
@@ -294,11 +294,12 @@ textarea{
 }
 
 .Footer{
-  position: sticky;
+  position: absolute;
   font-weight: 100;
   left: 0;
   bottom: 0;
-  height: 95px;
+  margin: 0px;
+  height: 9px;
   width: 100%;
   color: #000;
   background-color: #979797;
@@ -333,11 +334,21 @@ line-height: 13px;
 /* This is the for video player on the homepage to be positionsed */
 
 #videoplayer {
-    bottom: 12%;
-    left: 2.4%;
-    position: absolute;
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 100%, rgba(0,0,0,1) 100%, rgba(219,219,219,0.304359243697479) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 12%;
+  left: 2.4%;
+  position: absolute;
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(168,168,168,0) 0%, rgba(0,0,0,1) 100%);
+}
+
+.Boxed p{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 20px;
 }
 
 /*
