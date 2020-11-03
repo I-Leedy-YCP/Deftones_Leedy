@@ -43,7 +43,9 @@ html {
  * A better looking default horizontal rule
  */
 
-
+body{
+  overflow-x: hidden;
+}
 
 *{
 margin:0;
@@ -191,8 +193,11 @@ p{
  }
 
  .Deftones_Ohms{
-   max-height: 40px;
-   max-width: 40px;
+   margin: 3%;
+ }
+
+ .Deftones_Ohms img{
+   width: 100%;
  }
 
 /*Start Tour CSS below */
@@ -216,38 +221,37 @@ p{
 .Contact_content{
   display: flex;
   justify-content: center;
-  align-items: center;
   width: 100vw;
-  marign: 0px;
+  margin: 0px;
   font-weight: 100px;
   flex-direction: row;
 }
 
 .contacform{
-  width: 48%;
+  width: 40%;
   margin: 15px;
   position: relative;
   left: 5%;
 }
 
 .vl{
-  width: 6%
+  width: 6%;
   border-right: 1px solid white;
   height: 350px;
   margin: 15px;
 }
 
 .Social_Media{
-  width: 48%;
+  width: 40%;
   position: relative;
-  right: 35%;
+  left: 12%;
   margin: 15px;
   color: #ffffff;
 }
 
 .Social_Media h2{
   font-size: 30px;
-  padding-left: 730px;
+  margin: 0 auto;
 }
 
 .Social_Media a:hover{
@@ -260,7 +264,6 @@ p{
   font-weight: 200;
   font-size: 20px;
   line-height: 30px;
-  padding-left: 750px;
 }
 
 input{
@@ -293,37 +296,142 @@ textarea{
   padding-left: 10px;
 }
 
-.Footer{
-  position: absolute;
-  font-weight: 100;
-  left: 0;
-  bottom: 0;
+footer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   margin: 0px;
-  height: 9px;
+  height: 150px;
   width: 100%;
-  color: #000;
   background-color: #979797;
+  position: absolute;
+  bottom: 0px;
 }
 
-.Footer p{
+footer p{
 font-size: 15px;
+width: 80%;
 color: #000;
-margin-left: 26px;
-margin-top: 28px;
 line-height: 13px;
+position: relative;
+left: 5%;
 }
+
 /* End Contact CSS */
+
+/* Off Canvas Menu */
+
+.hamburger{
+  font-size:30px;
+  cursor:pointer;
+  color: #fff;
+  display: none;
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-right .5s;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
 
 /*Start Responsive CSS Below*/
 
-@media screen and (max-width: 768){
+@media screen and (max-width: 768px){
+
+  /* Hamgburger Menu */
+  .hamburger {
+    left: 68%;
+    top: 3px;
+    font-size: 50px;
+    position: relative;
+    display: inline;
+}
+
+nav ul{
+  display: none;
+}
 
 
 
 }
 
-@media screen and (max-width: 320){
+@media screen and (max-width: 320px){
 
+   /* Hamgburger Menu */
+   .hamburger {
+    left: 90%;
+    top: 3px;
+    font-size: 50px;
+    position: relative;
+    display: inline;
+}
+
+nav ul{
+  display: none;
+}
+
+  .Contact_content{
+    height: auto;
+    flex-direction: column;
+  }
+
+  .vl{
+    display: none;
+  }
+
+
+  /* Mobile Footer */
+
+  footer{
+    height: 250px;
+    position: relative;
+    flex-wrap: wrap;
+  }
+
+  footer p {
+    width: 70%;
+    font-size: 15px;
+    color: #000;
+    line-height: 22px;
+}
 
 
 }

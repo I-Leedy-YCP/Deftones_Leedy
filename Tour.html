@@ -15,17 +15,28 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body class="Tour">
+
+    <!-- Off Canvas Menu -->
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Home</a>
+      <a href="About.html">About</a>
+      <a href="Tour.html">Tour</a>
+      <a href="Contact.html">Contact</a>
+    </div>
+
   <header>
     <h1>Tour</h1>
     <!-- Add your site or application content here -->
-    <div class ="main">
+    <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="About.html">About</a></li>
         <li><a href="Tour.html">Tour</a></li>
         <li><a href="Contact.html">Contact</a></li>
       </ul>
-    </div>
+      <span class="hamburger" onclick="openNav()">&#9776;</span>
+    </nav>
   </header>
 
 
@@ -380,8 +391,7 @@
   section.on('click', toggleAccordion);
   </script>
 
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
+
   <script src="js/main.js"></script>
 </body>
 </html>
