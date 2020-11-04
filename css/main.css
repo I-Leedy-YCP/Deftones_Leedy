@@ -82,13 +82,20 @@ margin-bottom: 2%;
 
 .about_content{
   width: 90%;
-  margin-top: 5%;
+  margin-top: 4%;
   margin: 1%;
   flex-direction: column;
 }
 
+.about_content p{
+  font-size: 16px;
+  font-weight: 200;
+}
+
 .Deftones_Ohms{
-margin:1%;
+  hight: auto;
+  width: 590px;
+  margin:1%;
 }
 
 h1{
@@ -186,11 +193,6 @@ p{
    text-decoration: underline;
  }
 /* End of panel css */
-
- .about_content{
-   font-weight: 100;
-   font-size: 15px;
- }
 
  .Deftones_Ohms{
    margin: 3%;
