@@ -210,6 +210,10 @@ p{
   background-color: Black;
 }
 
+.section-title img{
+  width: 30%;
+}
+
 /*End Tour CSS */
 
 /* Start Contact CSS Below */
@@ -321,6 +325,65 @@ left: 5%;
 
 /* End Contact CSS */
 
+/* Accordion Content */
+
+.tourdetails{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 2%;
+}
+
+.shows{
+  width: 23%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2%;
+}
+
+.shows ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 0 auto;
+}
+
+.shows ul li{
+  margin: 0 auto;
+  font-size: 12px;
+  color: #fff;
+  border: none;
+  text-align: left;
+}
+
+/* End Accordion Content */
+
+/* Videoplayer */
+
+#videoplayer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 12%;
+  left: 2.4%;
+  position: absolute;
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(168,168,168,0) 0%, rgba(0,0,0,1) 100%);
+}
+
+.Boxed p{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 20px;
+}
+
 /* Off Canvas Menu */
 
 .hamburger{
@@ -391,9 +454,6 @@ nav ul{
   display: none;
 }
 
-
-
-}
 
 @media screen and (max-width: 320px){
 
