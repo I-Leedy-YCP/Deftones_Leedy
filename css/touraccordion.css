@@ -56,8 +56,8 @@
     border-style: solid;
     border-width: 0px;
     flex-direction: row;
-    height: 700px;
-} 
+    height: 545px;
+}
 
 .accordion-title,
 .accordion-select  {
@@ -76,40 +76,49 @@
 .accordion-title:not(:nth-last-child(2))::after {
     border-bottom-color: transparent;
     border-right-color: rgb(234, 234, 234);
-} 
+}
 
 .accordion-select:hover + .accordion-title,
 .accordion-select:checked + .accordion-title {
     background-color: #ffffff;
-} 
+}
 
- .accordion-title span  {	
+ .accordion-title span  {
     transform: rotate(-90deg);
     -ms-writing-mode: lr-bt;
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     padding-bottom: 50px;
     padding-top: 50px;
     line-height: 100px;
-} 
+}
 
 .accordion-content {
     background-color: #1E1E1E;
     color: #7f8787;
-    height: 700px;
+    height: 545px;
     margin-bottom: -600px;
     margin-right: calc(-1 * calc(100% - 300px));
     padding: 30px;
     width: calc(100% - 300px);
-} 
+}
 
 #blue{
     background-image: url('../img/NA_tour.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #yellow{
     background-image: url('../img/Europe_tour.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #green{
     background-image: url('../img/Asia_tour.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
