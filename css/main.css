@@ -343,7 +343,6 @@ left: 5%;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 2%;
 }
 
 .shows ul{
@@ -444,7 +443,7 @@ left: 5%;
 
   /* Hamgburger Menu */
   .hamburger {
-    left: 68%;
+    left: 70%;
     top: 3px;
     font-size: 50px;
     position: relative;
