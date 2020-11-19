@@ -125,22 +125,10 @@
 
 @media screen and (max-width: 768px){
 
-    .accordion-title, .accordion-select {
-        width: 360px;
-    }
+   .accordion{
+       display: none;
+   }
 
-    .accordion-content h1{
-        font-size: 34px;
-    }
-
-    .tourdetails{
-        margin: 0 auto;
-        align-items: baseline;
-    }
-
-    .shows{
-        width: 50%;
-    }
 
 
 }

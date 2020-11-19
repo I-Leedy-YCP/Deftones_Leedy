@@ -437,6 +437,10 @@ left: 4%;
   transition: margin-right .5s;
 }
 
+.mobiletourschedule{
+  display: none;
+}
+
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
@@ -459,6 +463,73 @@ nav ul{
   display: none;
 }
 
+.mobiletourschedule{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.mobiletourdates{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.mobileheader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.mobiledates{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-direction: row;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.showdates{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 35%;
+}
+
+.showlocations{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 65%;
+}
+
+.showdates ul,
+.showlocations ul{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 5%;
+}
+
+.showdates ul li,
+.showlocations ul li{
+  border: none;
+  color: #fff;
+  font-size: 17px;
+}
+
 
 @media screen and (max-width: 320px){
 
@@ -469,6 +540,7 @@ nav ul{
     font-size: 50px;
     position: relative;
     display: inline;
+    left: 390px;
 }
 
 nav ul{
@@ -481,9 +553,36 @@ nav ul{
     border: none;
   }
 
+  .about_content {
+    width: 100vw;
+    margin-top: 4%;
+    margin: 1%;
+    flex-direction: column;
+}
+
+.Deftones_Ohms {
+   margin: 0 auto;
+}
+
+.Deftones_Ohms img {
+  width: 90%;
+  padding: 1%;
+  position: relative;
+  right: -17px;
+}
+
   .vl{
     display: none;
   }
+
+  .mobiletourschedule {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 150%;
+    margin: 0 auto;
+}
 
 
   /* Mobile Footer */
