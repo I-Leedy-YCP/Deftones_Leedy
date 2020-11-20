@@ -58,6 +58,7 @@ font-size: 25px;
 background-image: url("../img/Ohms Loop.gif");
 height: 100vh;
 background-size: cover;
+background-repeat: no-repeat;
 background-position: center;
 overflow-x: hidden;
 width: 100vw;
@@ -159,7 +160,7 @@ p{
 /* This is for the show/hide panel on the homepage */
 
 .panel {
-	width: 500px;
+	width: 350px;
 	float:right;
 	height:100%;
 	background:#d9dada;
@@ -179,7 +180,7 @@ p{
 	color:#fff;
 	text-decoration:none;
 	position:relative;
-  left: 930px;
+  left: 806px;
   top: 50%;
 }
 
@@ -332,18 +333,18 @@ left: 4%;
 .tourdetails{
   width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: unset;
+  align-items: baseline;
   flex-direction: row;
   margin: 1%;
   position: relative;
-  top: -50px;
+  top: -15px;
 }
 
 .shows{
   width: 23%;
   display: flex;
-  justify-content: center;
+  justify-content: unset;
   align-items: center;
   flex-direction: column;
   position: relative;
@@ -364,7 +365,7 @@ left: 4%;
   font-size: 12px;
   color: #fff;
   border: none;
-  text-align: center;
+  text-align: left;
 }
 
 /* End Accordion Content */
@@ -452,11 +453,15 @@ left: 4%;
 
   /* Hamgburger Menu */
   .hamburger {
-    left: 70%;
+    left: 130%;
     top: 3px;
     font-size: 50px;
     position: relative;
     display: inline;
+}
+
+slider-arrow {
+    left: 840px;
 }
 
 nav ul{
@@ -477,12 +482,12 @@ nav ul{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 95%;
   margin: 0 auto;
 }
 
 .mobileheader{
   display: flex;
+  border: 1.5px solid #fff;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -584,6 +589,26 @@ nav ul{
     margin: 0 auto;
 }
 
+.NA_tour_Mobile img{
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  display: flex;
+}
+
+.Europe_tour_Mobile img{
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  display: flex;
+}
+
+.Asia_tour_Mobile img{
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  display: flex;
+}
 
   /* Mobile Footer */
 
