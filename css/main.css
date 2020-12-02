@@ -55,7 +55,7 @@ font-size: 25px;
 }
 
 .home{
-background-image: url("../img/Ohms-                             Loop2.gif");
+background-image: url("../img/OhmsVid.gif");
 height: 100vh;
 background-size: cover;
 background-repeat: no-repeat;
@@ -360,6 +360,7 @@ left: 4%;
   flex-direction: column;
   list-style-type: none;
   margin: 0 auto;
+  width: 230px;
 }
 
 .shows ul li{

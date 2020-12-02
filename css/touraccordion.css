@@ -106,21 +106,21 @@
     background-image: url('../img/NA_tour.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 
 #yellow{
     background-image: url('../img/Europe_tour.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 
 #green{
     background-image: url('../img/Asia_tour.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 
 @media screen and (max-width: 768px){
